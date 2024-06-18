@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\wwwroot\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\controllers\\peaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\controllers\\peaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\models\\modelexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\models\\modelexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\data\\repositories\\repositoryexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\data\\repositories\\repositoryexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|c:\\users\\admin\\source\\repos\\examen\\examen\\data\\repositories\\irepositoryexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA13F324-4F7C-4F3B-8625-4CE5943434E8}|Examen\\Examen.csproj|solutionrelative:examen\\data\\repositories\\irepositoryexamen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\wwwroot\\app.js",
+              "RelativeDocumentMoniker": "Examen\\wwwroot\\app.js",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\wwwroot\\app.js",
+              "RelativeToolTip": "Examen\\wwwroot\\app.js",
+              "ViewState": "AQIAAIQAAAAAfGZmZmYWwJQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-18T02:45:15.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Examen\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\wwwroot\\index.html",
+              "RelativeToolTip": "Examen\\wwwroot\\index.html",
+              "ViewState": "AQIAAHEAAAAAAAAAAADwv4IAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-17T13:55:01.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepositoryExamen.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Data\\Repositories\\RepositoryExamen.cs",
+              "RelativeDocumentMoniker": "Examen\\Data\\Repositories\\RepositoryExamen.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Data\\Repositories\\RepositoryExamen.cs",
+              "RelativeToolTip": "Examen\\Data\\Repositories\\RepositoryExamen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:18:40.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "peaje.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Controllers\\peaje.cs",
+              "RelativeDocumentMoniker": "Examen\\Controllers\\peaje.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Controllers\\peaje.cs",
+              "RelativeToolTip": "Examen\\Controllers\\peaje.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T11:32:11.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "Examen\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "Examen\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-17T13:55:38.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModelExamen.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Models\\ModelExamen.cs",
+              "RelativeDocumentMoniker": "Examen\\Models\\ModelExamen.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Models\\ModelExamen.cs",
+              "RelativeToolTip": "Examen\\Models\\ModelExamen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:21:13.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\appsettings.json",
+              "RelativeDocumentMoniker": "Examen\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\appsettings.json",
+              "RelativeToolTip": "Examen\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-17T12:25:16.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepositoryExamen.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Data\\Repositories\\IRepositoryExamen.cs",
+              "RelativeDocumentMoniker": "Examen\\Data\\Repositories\\IRepositoryExamen.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Examen\\Examen\\Data\\Repositories\\IRepositoryExamen.cs",
+              "RelativeToolTip": "Examen\\Data\\Repositories\\IRepositoryExamen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:18:04.98Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

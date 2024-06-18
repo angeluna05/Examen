@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend para Gestión de Pagos de Peajes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Gestión de Pagos de Peajes</h1>
+
+        <!-- Botón para abrir modal de Crear Pago -->
+        <button type="button" class="btn btn-primary mb-4" data-toggle="modal" data-target="#crearModal">
+            Crear Nuevo Pago
+        </button>
+
+        <!-- Tabla para listar los pagos -->
+        <h3>Listado de Pagos</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Placa</th>
+                    <th>Nombre Peaje</th>
+                    <th>Categoría Tarifa</th>
+                    <th>Valor</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tablaPagosBody">
+                <!-- Aquí se llenarán los registros desde JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal para crear un nuevo pago -->
+    <div class="modal fade" id="crearModal" tabindex="-1" role="dialog" aria-labelledby="crearModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="crearModalLabel">Crear Nuevo Pago de Peaje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulario para crear un nuevo pago -->
+                    <form id="crearPagoForm">
+                        <div class="form-group">
+                            <label for="placaCrear">Placa del vehículo</label>
+                            <input type="text" class="form-control" id="placaCrear" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nombrePeajeCrear">Nombre del peaje</label>
+                            <select class="form-control" id="nombrePeajeCrear" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="idCategoriaTarifaCrear">Categoría de tarifa</label>
+                            <select class="form-control" id="idCategoriaTarifaCrear" required>
+                                <option value="I">I</option>
+                                <option value="II">II</option>
+                                <option value="III">III</option>
+                                <option value="IV">IV</option>
+                                <option value="V">V</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="valorCrear">Valor del peaje</label>
+                            <input type="text" class="form-control" id="valorCrear" readonly>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="guardarNuevoBtn">Guardar Pago</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para editar un pago existente -->
+    <div class="modal fade" id="editarModal" tabindex="-1" role="dialog" aria-labelledby="editarModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editarModalLabel">Editar Pago de Peaje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Formulario para editar un pago -->
+                    <form id="editarPagoForm">
+                        <div class="form-group">
+                            <label for="placaEditar">Placa del vehículo</label>
+                            <input type="text" class="form-control" id="placaEditar" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nombrePeajeEditar">Nombre del peaje</label>
+                            <select class="form-control" id="nombrePeajeEditar" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="idCategoriaTarifaEditar">Categoría de tarifa</label>
+                            <select class="form-control" id="idCategoriaTarifaEditar" required>
+                                <option value="I">I</option>
+                                <option value="II">II</option>
+                                <option value="III">III</option>
+                                <option value="IV">IV</option>
+                                <option value="V">V</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="valorEditar">Valor del peaje</label>
+                            <input type="text" class="form-control" id="valorEditar" readonly>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" id="guardarCambiosBtn">Guardar Cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y scripts personalizados -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script> <!-- Nombre de tu archivo JavaScript personalizado -->
+</body>
+</html>
