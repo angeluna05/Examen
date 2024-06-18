@@ -1,0 +1,26 @@
+name: peaje
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1 # Para hacer peticiones HTTP
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  google_maps_flutter: ^2.7.0
+  location: ^6.0.2
+  geolocator_web: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/vehiculo.jpg # Carpeta que contiene tus recursos estáticos
